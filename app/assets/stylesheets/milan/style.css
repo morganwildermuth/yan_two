@@ -72,7 +72,10 @@ h2 {
 /* ============== MAIN ==================== */
 #about-title, 
 #blog-title, 
-#contact-title {
+#contact-title,
+#current-project-title,
+#team-title {
+    background-color: black;
     height:250px;
     color:white;
     border-bottom:5px solid #ff6000;
