@@ -73,7 +73,7 @@ h2 {
 #about-title, 
 #blog-title, 
 #contact-title,
-#current-project-title,
+#projects-title,
 #team-title {
     background-color: black;
     height:250px;
@@ -94,7 +94,8 @@ h2 {
 }
 #about, 
 #blog, 
-#contact {
+#contact,
+#projects {
     margin:80px auto 0;
     overflow:hidden;
 }
