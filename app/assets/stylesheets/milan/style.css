@@ -135,7 +135,7 @@ h2 {
     margin-bottom:20px;
 }
 .readmore {
-    background:transparent url('../img/readmore.png') 0 0 no-repeat;
+    background: transparent url('../readmore.png')0 0 no-repeat;
     height:26px;
     width:125px;
     display:block;
@@ -147,7 +147,7 @@ h2 {
     line-height:26px;
 }
 .readmore:hover {
-    background:transparent url('../img/readmore-hover.png') 0 0 no-repeat;
+    background: transparent url('../readmore-hover.png')0 0 no-repeat;
 }
 
 /* ============== Pop up box ==================== */
@@ -282,13 +282,13 @@ a#pull {
 
 /* ============== Parallax image backgounds ==================== */
 .js-background-1 {
-    background: transparent url('../img/about-bg.png') 10% 150px no-repeat;
+    background: transparent url('../about-bg.png') 10% 150px no-repeat;
 }
 .js-background-2 {
-    background: transparent url('../img/blog-bg.png') 10% 150px no-repeat;
+    background: transparent url('../blog-bg.png') 10% 150px no-repeat;
 }
 .js-background-3 {
-    background: transparent url('../img/contact-bg.png') top center repeat;
+    background: transparent url('../contact-bg.png') top center repeat;
 }
  
 /* ============== Responsive Media Queries ==================== */
@@ -342,7 +342,7 @@ a#pull {
         display:none;
     }
     a#pull {
-        background: url('../img/nav-icon.png') 0 0 no-repeat;
+        background: url('../nav-icon.png')0 0 no-repeat;
         display: block;
         height: 40px;
         left: 7px;
