@@ -25,9 +25,11 @@ a,
 a:visited {
     outline:none;
 }
-a:hover{
-    color: #ffc600;
+
+#get-involved > p > a:hover{
+   color: #ffc600;
 }
+
 strong {
     font-weight:700;
 }
