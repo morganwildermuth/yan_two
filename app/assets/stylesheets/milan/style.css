@@ -22,9 +22,11 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 a, 
-a:hover, 
 a:visited {
     outline:none;
+}
+a:hover{
+    color: #ffc600;
 }
 strong {
     font-weight:700;
@@ -74,7 +76,7 @@ h2 {
 #blog-title, 
 #contact-title,
 #projects-title,
-#team-title {
+#team-title{
     background-color: black;
     height:250px;
     color:white;
@@ -89,12 +91,13 @@ h2 {
 #blog-title {
     background:#484746;
 }
-#contact-title {
+#get-involved-title {
+    color: white;
     background-color:#ffc600;
 }
 #about, 
 #blog, 
-#contact,
+#get-involved,
 #projects {
     margin:80px auto 0;
     overflow:hidden;
@@ -102,11 +105,7 @@ h2 {
 #about p {
     margin-top:80px;
 }
-#contact p {
-    padding:0 20px;
-    width:50%;
-    margin:0 0 80px;
-}
+
 #welcome {
     margin:400px auto 80px;
     text-align:center;
