@@ -78,20 +78,16 @@ h2 {
 #blog-title, 
 #contact-title,
 #projects-title,
+#get-involved-title,
 #team-title{
-    background-color: black;
+    background-color: #FFC600;
     height:250px;
     color:white;
+    border-top:2px solid #ff6000;
     border-bottom:5px solid #ff6000;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-}
-#about-title {
-    background-color:black;
-}
-#blog-title {
-    background:#484746;
 }
 #get-involved-title {
     color: white;
@@ -287,10 +283,10 @@ a#pull {
 
 /* ============== Parallax image backgounds ==================== */
 .js-background-1 {
-    background: transparent url('../about-bg.png') 10% 150px no-repeat;
+    /*background: transparent url('../about-bg.png') 10% 150px no-repeat;*/
 }
 .js-background-2 {
-    background: transparent url('../blog-bg.png') 10% 150px no-repeat;
+    /*background: transparent url('../blog-bg.png') 10% 150px no-repeat;*/
 }
 .js-background-3 {
     background: transparent url('../contact-bg.png') top center repeat;
@@ -311,7 +307,7 @@ a#pull {
     }
 }
 
-@media only screen and (max-width : 767px) {  
+@media only screen and (max-width : 850px) {
     .left {
         float:none;margin:0;
     }
@@ -339,7 +335,7 @@ a#pull {
         padding:0;
         line-height:50px;
         height:auto;
-        width:25%;
+        width:16%;
         text-align: center;
         font-size:18px;
     }  
