@@ -136,7 +136,7 @@ h2 {
     margin-bottom:20px;
 }
 .readmore {
-    background: transparent url('../readmore.png')0 0 no-repeat;
+    background: transparent url('../images/readmore.png')0 0 no-repeat;
     height:26px;
     width:125px;
     display:block;
@@ -148,7 +148,7 @@ h2 {
     line-height:26px;
 }
 .readmore:hover {
-    background: transparent url('../readmore-hover.png')0 0 no-repeat;
+    background: transparent url('../images/readmore-hover.png')0 0 no-repeat;
 }
 
 /* ============== Pop up box ==================== */
@@ -289,7 +289,7 @@ a#pull {
     /*background: transparent url('../blog-bg.png') 10% 150px no-repeat;*/
 }
 .js-background-3 {
-    background: transparent url('../contact-bg.png') top center repeat;
+    background: transparent url('../images/contact-bg.png') top center repeat;
 }
  
 /* ============== Responsive Media Queries ==================== */
